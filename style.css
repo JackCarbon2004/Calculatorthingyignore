@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#calculator {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#inputDisplay {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.operation {
+    background-color: #f9f9f9;
+}
+
+#calculate {
+    flex: 2;
+    background-color: lightgreen;
+}
+
+#clear {
+    background-color: #f99;
+}
